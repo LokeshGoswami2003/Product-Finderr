@@ -1,0 +1,24 @@
+{
+  "name": "ai-product-finder-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express API for AI Product Finder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env index.js",
+    "dev": "nodemon --exec \"node --env-file-if-exists=.env\" index.js",
+    "test": "node --test",
+    "ingest": "node --env-file-if-exists=.env scripts/ingest-local.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "ws": "^8.18.3",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "supertest": "^7.1.4"
+  }
+}

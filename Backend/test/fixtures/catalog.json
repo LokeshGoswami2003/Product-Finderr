@@ -1,0 +1,40 @@
+{
+  "productDetails": {
+    "search-term": {
+      "search-term": ""
+    },
+    "filters": [
+      {
+        "categoryTitle": "Markets",
+        "categoryName": "industry",
+        "values": [
+          {
+            "level": "Parent",
+            "name": "Coatings",
+            "count": "1",
+            "id": "1",
+            "childs": [],
+            "lookupName": "Coatings",
+            "selected": "false",
+            "parentId": ""
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "FGMN": "71000122",
+        "DisplayName": "AdapT™ 100",
+        "SortName": "AdapT 100",
+        "DisplayTDS": "true",
+        "DisplaySDS": "true",
+        "DisplaySalesSpec": "false",
+        "ShortDescription": "<p>Hydrogen sulfide: H<sub>2</sub>S.</p><script>unsafe()</script>"
+      }
+    ],
+    "labels": {
+      "totalCount": "1"
+    }
+  }
+}
+

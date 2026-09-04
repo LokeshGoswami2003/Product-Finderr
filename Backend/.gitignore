@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+sampel.env
+
+# Runtime and coverage output
+coverage/
+.nyc_output/
+*.pid
+*.pid.lock
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
